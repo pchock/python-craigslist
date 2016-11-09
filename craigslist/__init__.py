@@ -111,7 +111,7 @@ class CraigslistBase(object):
         If geotagged=True, the results will include the (lat, lng) in the
         'geotag' attrib (this will make the process a little bit longer).
         """
-
+        import pdb;pdb.set_trace()
         if sort_by:
             try:
                 self.filters['sort'] = self.sort_by_options[sort_by]
